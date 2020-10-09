@@ -158,9 +158,35 @@ print('\nNumber of Digits : ',d)
 
 Question 9
 
+a)
+x=eval(input('Guess the luck number between 1-50  :'))
+while x !=7:
+    print('Oops, This is not the luck number ')
+    x=eval(input('Guess the Lucky number between 1-50: '))
+    if x == 7:
+        print('Bingo, This is the lucky number')
+        
+ b)
+ 
+ 
+-------------------------------------------------
 
+Question 10 : 
 
-
+counter=0
+while counter < 5:
+    counter +=1
+    x=int(input('Guess the ' + str(counter) + '  Number   :'))        
+    if x != 7:
+        print('Try Again')
+        continue
+    else:
+        print('Good Guess')
+    break
+if counter == 5:
+  print('Game over') 
+  
+  -----------------------------------------------------
 
 
  
