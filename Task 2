@@ -166,7 +166,17 @@ while x !=7:
     if x == 7:
         print('Bingo, This is the lucky number')
         
- b)
+ b) 
+ x=eval(input('Guess the luck number between 1-50  :'))
+while x !=7:
+    print('Oops, This is not the luck number ')
+    s=input("Do you want to guess again :  Yes/No  :  ")
+    if s == "Yes":
+        x=eval(input('Guess the Lucky number between 1-50: '))
+    if s == "No":
+        break 
+else:
+ print('Bingo, This is the lucky number')
  
  
 -------------------------------------------------
