@@ -72,5 +72,95 @@ if (Avg > c):
 ---------------------------------------------------------------   
  Question 4
  
- 
+ while True:
+   x=int(input('enter a number :  '))
+   if x < 0:
+       print('Its Over')
+       break
+   else:
+       print('Good Going')
+       
+-------------------------------------------------------
+
+Question 5
+
+print(*[x for x in range(2000,3201) if (x%5!=0) and x%7==0])
+
+--------------------------------------------------------
+
+Question 6
+
+a)
+x=123
+for i in x:
+  print(i)
+Traceback (most recent call last):
+
+  File "<ipython-input-108-61a508fe3afb>", line 2, in <module>
+    for i in x:
+
+TypeError: 'int' object is not iterable
+
+b)
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+    if i==3:
+        break
+    else:
+        print("Error")
+0
+Error
+1
+Error
+2
+
+c)
+count = 0
+while True:
+    print(count)
+    count += 1
+    if count >= 5:
+        Break
+0
+1
+2
+3
+4
+
+--------------------------------------------------------
+Question 7
+
+for i in range(6) :
+    if i == 3 or i == 6 :
+        continue
+    else :
+        print(i)
+        
+---------------------------------------------------
+
+Question 8
+
+x=input('Enter a string include numbers also :')
+d=l=0
+for c in x:
+    if c.isalpha():
+        l += 1
+    elif c.isdigit():
+        d += 1
+    else:
+        pass
+print('Number of Letters : ',l)
+print('\nNumber of Digits : ',d)
+
+---------------------------------------------------
+
+Question 9
+
+
+
+
+
+
  
