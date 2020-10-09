@@ -1,0 +1,76 @@
+question 1
+
+num_ent=int(input('Enter a random two digit number  :'))
+if(num_ent % 3 == 0):
+  print('Consultadd')
+elif(num_ent % 5 == 0):
+  print('C')
+elif(num_ent % 3 == 0 and num_ent % 5 == 0):
+  print('Consultadd Python Training')
+else:
+    print('Change the number')
+    
+-----------------------------------------------------------
+
+Question 2
+
+a=int(input('Enter a value to select Arithamtic task :\n1-Addition \n2-Subtraction \n3-Division \n4-Multiplication\n5-Average\nEnter Here  :  '))
+if a==5:
+    print('Enter two more numbers to calc the Avg :  \n')
+    e=eval(input('Enter First Value to perform Avg  :  \n'))
+    f=eval(input('Enter Second Value to perform Avg :  \n'))
+    R_5=(e+f)/2
+    print(R_5)
+else:
+    b=eval(input('\nNow Enter First number to perform the arithmatic operation  : '))
+    c=eval(input('\nNow Enter Second number to perform the arithmatic operation  : '))
+
+    if a==1:
+        R_1=b+c
+        print(R_1)
+    elif a==2:
+        R_2=b-c
+        if(R_2 < 0):
+            print('Negative')
+        else:
+            print(R_2)
+    elif a==3:
+        
+        if(b == 0):
+            print('Number is not divisible')
+        else:
+            R_3=a/b
+            print(R_3)
+    elif a==4:
+        R_4=a*b
+        print(R_4)
+        
+        -----------------------------------------------------------------
+        
+ Question 3
+ a = 10
+b = 20
+c = 30
+
+Avg = (a+b+c)/3
+print ("Avg=",Avg)
+if (Avg > a and Avg > b and Avg > c):
+    print("Avg is higher than a, b, c")
+if (Avg > a and Avg > b):
+    print("Avg is higher than a,b")
+if (Avg > a and Avg > c):
+    print("Avg is higher than a,c")
+if (Avg > b and Avg > c):
+    print("Avg is higher than b,c")
+if (Avg > a):
+    print("Avg is just higher than a")
+if (Avg > b):
+    print("Avg is just higher than b")
+if (Avg > c):
+    print("Avg is just higher than c")
+    
+---------------------------------------------------------------   
+ Question 4
+ 
+ 
+ 
