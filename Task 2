@@ -198,5 +198,17 @@ if counter == 5:
   
   -----------------------------------------------------
 
+Question 11
 
- 
+counter = 0
+while counter < 5:
+    counter += 1
+    x=int(input('Guess the ' + str(counter) + '  Number   :'))        
+    if x != 7:
+        print('Try Again')
+        continue    
+    else:
+        print('Good Guess')
+        break
+if counter == 5:
+    print("Sorry but that was not very successful")
