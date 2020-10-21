@@ -8,3 +8,60 @@ print(y)
 
 Question 2
 
+def func(m):
+    x={"Upper_case":0, "Lower_case":0}
+    for c in m:
+        if c.isupper():
+            x["Upper_case"]+=1
+        elif c.islower():
+            x["Lower_case"]+=1
+        else:
+            pass
+    print(" Actual String is  : ",m)
+    print(" No. of Upper case letters : " , x["Upper_case"])
+    print(" No. of Lower case letters : " , x["Lower_case"])
+
+func("This Is The Most Amazing LanguagE")
+------------------------------------------------------------
+
+Question 3
+
+def UL(a):
+   
+    b=[]
+    for x in a:
+        if x not in b:
+            b.append(x)
+    return b
+print(UL([1,2,2,3,3,3,4,5,6,6,7,7,7]))
+--------------------------------------------------------
+
+Question 4
+
+a=input("Enter four names seperated using hyphen (-) :")
+
+b=[x for x in a.split("-")]
+b.sort()
+print("-".join(b))
+-------------------------------------------------
+
+Question 5
+
+a=input("Enter a sentence in lower case :")
+
+
+-------------------------------------------
+
+Question 6
+
+def summation (a,b):
+    s= int(a)+ int(b)
+    return s
+num1 = "111"
+num2 = "222"
+sum = summation (num1, num2)
+print("Sum = ", sum)
+----------------------------------------
+
+
+
