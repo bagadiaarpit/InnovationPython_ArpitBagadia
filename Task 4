@@ -114,5 +114,39 @@ print("Filtered list is  :", list2)
 
 Question 11
 
+----------------------------------------
+
+Question 12
+
+---------------------------------------
+
+Question 13
+
+import operator
+from functools import reduce
+
+x =[[1,2,3],[4,5],[6,7,8]]
+y = reduce(operator.add, x)
+print(y)
+
+-----------------------------------
+
+Question 14
+
+(i)
+def foo():
+    try:
+        return 1
+    finally:
+        return 2
+    k = foo()
+    print(k)
+
+
+No Output
+
+(ii)
+
+No output
 
 
