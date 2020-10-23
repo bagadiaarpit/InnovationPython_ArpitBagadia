@@ -63,5 +63,56 @@ sum = summation (num1, num2)
 print("Sum = ", sum)
 ----------------------------------------
 
+Question 7
+
+string1 = input("Enter string 1  :")
+string2 = input("Enter string 2  :")
+count1 = 0
+count2 = 0
+for i in string1:
+    count1 += 1
+for j in string2:
+    count2 += 1
+if (count1 < count2):
+    print(string2)
+elif (count1 == count2):
+    print(string1,"\n",string2)
+else:
+    print(string1)
+---------------------------------------------
+
+Question 8
+
+def num():
+    a= list()
+    for i in range(1,21):
+        a.append(i*i)
+    print(tuple(a))
+num()
+-------------------------------------
+
+Question 9
+
+def numb(limit):
+    for i in range(0,limit +1):
+        if i %2 == 0:
+            print(str(i), " : EVEN")
+        else:
+            print(str(i), " : ODD")
+            
+limit = int(input("Enter the limie to which you want to show the number :"))
+numb(limit)
+-----------------------------------------
+
+Question 10
+
+list1 = range(1,21)
+even = lambda x: x %2 ==0
+list2 = list(filter(even, list1))
+print("Filtered list is  :", list2)
+-------------------------------------------
+
+Question 11
+
 
 
