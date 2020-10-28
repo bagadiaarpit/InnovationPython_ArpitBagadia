@@ -1,0 +1,45 @@
+Question 1
+
+raise SyntaxError("Error 404 not found")
+----------------------------------------
+
+Question 2
+
+
+------------------------------------
+
+Question 3
+
+while True:
+    try:
+        x = input("Enter a number  : ")
+        if len(x)>4 or len(x)<4:
+            raise ValueError
+    except:
+        print("Please length is too short/long !!! Please provide only 4 digits. ")
+    else:
+        print("Prefect !!!")
+        break
+-------------------------------------
+
+Question 4
+
+print("Enter Username and Password  : ")
+count=0
+while count < 3:
+    UN = input(" Enter Username  :")
+    PA = input("\nEnter Password  :")
+    
+    if UN == "a@xyz.com" and PA == "123abc":
+        print("Your Username and passowrd are correct", "\n Access Granted ")
+        break
+    else:
+        print("Incorrect Username or Password ")
+        print("ReEnter the Username and Password")
+    count += 1
+    
+    print("Limit Exceed")
+    ------------------------------------------
+    
+Question 5
+
