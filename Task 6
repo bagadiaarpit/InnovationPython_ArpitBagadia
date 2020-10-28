@@ -1,0 +1,66 @@
+Question 1
+
+N= range(71)
+R= filter(lambda x: x % 3 != 0 and x % 7 ==0, N)
+print(list(R))
+---------------------------------------------------
+
+Question 2
+
+a= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+b= list(map(lambda x: x*x, a))
+print("Your Answer is : \n ",b)
+
+Question 3
+
+a= " I Am Arpit Bagadia. NY"
+x = [b for b in a if b.isupper()]
+print(x)
+-----------------------------
+
+Question 4
+
+student=['smith','Jaya','Rayyan']
+capital=['CSE','Networking','Operating System']
+print("Original string is : ", student)
+print("\n ", capital)
+result = dict(zip(student,capital))
+print("\n\nThe Result is  : ",result)
+------------------------------------
+
+Question 5
+
+-------------------------------------
+
+Question 6
+
+def reverse(s):
+    str = ""
+    for i in s:
+        str = i + str
+    return str
+
+s = " Consultadd Training"
+print(" The Original String is :", end="" )
+print(s)
+
+print("The Reversed string is :", end="")
+print(reverse(s))
+------------------------------------
+
+Question 7
+
+-------------------------------------
+Question 8
+
+Front End Technologies
+
+React-  Pintrest, Netflixm Instagram
+
+Angular- Lego, IBM, Walmart
+
+Vue.js- Facebook, Adobe, Alibaba
+
+Nodejs- LinkedIn, Capitalone
+
+Bootstrap- Dell, Microsoft, HP
