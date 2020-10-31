@@ -64,6 +64,54 @@ main())
 
 SyntaxError: invalid syntax
 
+
+class A:
+    def __init__(self,x):
+        self.x = x
+    def count(self,x):
+        self.x = self.x+1
+class B(A):
+    def __init__(self, y=0):
+        A.__init__(self, 3)
+        self.y = y
+    def count(self):
+        self.y += 1
+def main():
+    obj = B()
+    obj.count()
+    print(obj.x, obj.y)
+main()
+
+Output : 3 1
+
+
+class A:
+    def __init__(self):
+        self.multiply(15)
+        print(self.i)
+    def multiply(self, i):
+        self.i = 4 * i;
+class B(A):
+    def __init__(self):
+        super().__init__()
+    def multiply(self, i):
+        self.i = 2 * i;
+obj = B()
+
+Output  : 30
 ---------------------------------------------------------
+
+Question 5
+
+def seconds(time_str):
+    a, b, c = time_str.split(":")
+    return int(a)*60 + int(b) + int(c)/60
+print(seconds("2:50:00"), "minutes")
+print(seconds("1:20:00"), "minutes")
+print(seconds("4:10:00"), "minutes")
+
+--------------------------------------------
+
+Question 6
 
 
